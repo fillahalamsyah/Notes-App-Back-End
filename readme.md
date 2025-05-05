@@ -18,7 +18,7 @@ Layanan RESTful API backend untuk aplikasi catatan yang dibangun dengan Hapi.js.
 
 ## Struktur Proyek
 
-```
+```plaintext
 notes-app-back-end/
 ├── src/
 │   ├── handler.js      # Penangan permintaan untuk setiap rute API
@@ -52,6 +52,7 @@ notes-app-back-end/
    ```
 
 2. Instalasi semua dependensi:
+
    ```bash
    npm install
    ```
@@ -64,7 +65,7 @@ Jalankan server pengembangan dengan fitur restart otomatis saat ada perubahan ko
 npm start
 ```
 
-Server akan berjalan pada alamat: http://localhost:5000
+Server akan berjalan pada alamat: `http://localhost:5000`
 
 ## Struktur Data Catatan
 
